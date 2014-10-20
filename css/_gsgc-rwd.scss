@@ -1,0 +1,178 @@
+/* 
+http://twitter.github.com/bootstrap/scaffolding.html#responsive 
+*/
+
+@media (min-width: 1200px){
+    
+    .navbar {
+        .brand {
+            width: 350px;
+        }
+    }
+    
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+
+	.photo-bg {
+		background-image: none;
+	}
+	
+	.navbar { 
+	
+		font-size: 1.5em;
+		
+		abbr {
+			display: none;
+		}
+		
+		.btn-navbar {
+			float: left;
+		}
+		
+		.brand {
+			padding: 1em 0;
+		}
+	}
+	
+	header.banner {
+		
+		.get-tickets a h1,
+		h2 {
+			font-size: 2em;
+			line-height: 1.2;
+		}
+	}
+	
+	#footer p {
+		padding: 1.5em 0;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) { 
+
+	.photo-bg {
+		background-image: none;
+	}
+	
+	.wrapper {
+		padding-top: 0;
+	}
+	
+	.navbar {
+		
+		nav,
+		.nav {
+			float: none !important;
+		}
+		
+		.btn,
+		.btn-group {
+			margin: 0;
+		}
+		
+		.brand {
+			padding: .5em 0 .5em 1em;
+			margin: 0;
+			display: inline-block;
+		}
+		
+		.btn-navbar {
+			float: left;
+		}
+		
+		abbr {
+			display: none;
+		}
+	}
+	
+	.navbar-inverse .btn-navbar {
+		background-color: #333;
+		background-image: none;
+		border-width: 1px;
+		border-style: solid;
+		border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+		color: #FFFFFF;
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+		padding: 15px 20px;
+		
+		.icon-bar {
+			height: 3px;
+			border-radius: 0px !important;
+		}
+	}
+	
+	header.banner {
+	
+		.get-tickets a h1 {
+			display: block; 
+		}
+		
+		h2 {
+			font-size: 2em !important;
+			line-height: 1.2;
+		}
+	}
+	
+	#footer p {
+		padding: 1.5em 0;
+	}
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 940px) {
+	
+	.wrapper {
+		padding-top: 0;
+	}
+
+	.navbar {
+		
+		.brand {
+			float:none;
+			display: inline-block;
+			margin: 0 0 0 -5px;
+			padding: .5em 1em; 
+		} 
+		
+		nav,
+		.nav {
+			float: none !important;
+		}
+
+		.btn,
+		.btn-group {
+			margin: 0;
+		}
+		
+		.btn-navbar {
+			float: left;
+		}
+		
+		abbr {
+			display: none;
+		}
+	}
+
+	
+	.navbar-inverse .btn-navbar {
+		background-color: #333;
+		background-image: none;
+		border-width: 1px;
+		border-style: solid;
+		border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+		color: #FFFFFF;
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+		padding: 15px 20px;
+		
+		.icon-bar {
+			height: 3px;
+			border-radius: 0px !important;
+		}
+	}
+}
+ 
+ 

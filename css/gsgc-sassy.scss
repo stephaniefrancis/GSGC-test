@@ -1,0 +1,19 @@
+$darkRed: #781214;
+$midRed: #bd2026;
+//$gold: #f9b61f;
+$gold: #e6a30c;
+
+@import "reset";
+@import "gsgc-nav"; 
+@import "gsgc-custom";
+@import "skinny-bootstrap"; 
+@import "gsgc-rwd";
+
+/* Large desktop */
+@media (min-width: 1210px) {
+	body {
+		.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container { 
+			width: 1170px;
+		}
+	}
+}

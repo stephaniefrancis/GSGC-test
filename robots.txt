@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /oldsite-080513
+Disallow: /backup-060513
+Disallow: /_archive
+Disallow: index-oct13.htm
+Disallow: google5cfb75c047ffa018.html
